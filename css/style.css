@@ -1,0 +1,35 @@
+ 
+ .navbar {
+    background: #FF7A59;
+  }
+ 
+ 
+ /* Social Media icons */
+ .bi {
+    font-size: 2rem;
+    padding: 0.5rem;
+   } 
+  
+  .bi:hover {
+      opacity: 0.5;
+  }
+  
+  .bi-facebook {
+    color: #3B5998;
+  } 
+
+  
+  .bi-twitter {
+    color: #55ACEE;
+  }
+
+  .bi-instagram {
+    color: #125688;
+  } 
+
+  .bi-github {
+    color: #171515;
+  } 
+
+
+ 

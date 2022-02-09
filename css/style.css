@@ -1,13 +1,19 @@
  
  .navbar {
-    background: #FF7A59;
+    background: #fb8500;
   }
  
  
  /* Social Media icons */
  .bi {
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 0.5em;
+   } 
+
+   .bib {
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-right: 0.5em;
    } 
   
   .bi:hover {
@@ -31,7 +37,27 @@
     color: #171515;
   } 
 
+  .bi-envelope {
+    color: #171515;
+  } 
 
- .card-content{
-  margin-top: 130px;
+
+ .card-header{
+   background: #8ECAE6;
+ }
+
+ .badge{
+  background: #FFB703;
+ }
+
+ .badge:hover{
+  opacity: 0.5;
+ }
+
+ hr{
+  background-color:#fb8500;
+ }
+
+ .border{
+   border-color:#023047  !important;
  }

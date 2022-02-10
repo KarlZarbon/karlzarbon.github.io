@@ -3,7 +3,15 @@
     background: #fb8500;
   }
  
- 
+  .btn-read{
+    background: #FFB703;
+  }
+
+  .btn-read:hover{
+    opacity: 0.5;
+  }
+
+
  /* Social Media icons */
  .bi {
     font-size: 2rem;

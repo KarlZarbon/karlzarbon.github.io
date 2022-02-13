@@ -11,6 +11,17 @@
     opacity: 0.5;
   }
 
+  .post-img {
+    width: 80%;
+    height: auto;
+    margin-left: 3%;
+  }
+
+  .side-crop{
+    max-height: 275px; 
+    overflow: hidden;
+  }
+  
 
  /* Social Media icons */
  .bi {
@@ -69,3 +80,76 @@
  .border{
    border-color:#023047  !important;
  }
+
+ #canvasID{
+  transform: scale(0.6);
+  /* overflow:hidden; */
+  margin-left: -100px;
+  margin-top: -100px; 
+  margin-bottom: -100px;
+  
+ }
+
+ #inputID{
+  margin-right: 20px;
+}
+
+ @media (min-width: 576px) {
+  #canvasID{
+    transform: scale(0.8);
+    margin-left: -50px;
+    margin-top: -50px ;
+    margin-bottom: -50px;
+   }
+
+   #inputID{
+    margin-right: 20px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  #canvasID{
+    transform: scale(0.7);
+    margin-left: -60px;
+  margin-top: -30px 
+   }
+
+   #inputID{
+    margin-right: -40px;
+ 
+  }
+}
+
+@media (min-width: 992px){
+  #canvasID{
+    transform: scale(1.0);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   #inputID{
+    margin-right: -70px;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  #canvasID{
+  transform: scale(1.0);
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+ #inputID{
+  margin-right: 140px;
+  /* background-color:#fb8500; */
+} }
+
+/* @media (max-width: 1199.98px) { 
+  #inputID{
+  margin-right: 140px;
+  background-color:#fb8500;
+} } */

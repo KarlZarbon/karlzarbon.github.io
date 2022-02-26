@@ -1,10 +1,17 @@
  
+ :root {
+  --tangerine: #FB8500;
+  --selectiveYellow: #FFB703;
+  --lightCornflowerBlue: #8ECAE6;
+  --prussianBlue: #023047;
+}
+ 
  .navbar {
-    background: #fb8500;
+    background: var(--tangerine);
   }
  
   .btn-read{
-    background: #FFB703;
+    background: var(--selectiveYellow);
   }
 
   .btn-read:hover{
@@ -18,7 +25,7 @@
   }
 
   .side-crop{
-    max-height: 275px; 
+    max-height: 300px; 
     overflow: hidden;
   }
   
@@ -62,11 +69,12 @@
 
 
  .card-header{
-   background: #8ECAE6;
+   background: var(--lightCornflowerBlue);
  }
 
  .badge{
-  background: #FFB703;
+  background:  var(--tangerine);
+  
  }
 
  .badge:hover{
@@ -74,11 +82,11 @@
  }
 
  hr{
-  background-color:#fb8500;
+  background-color: var(--tangerine);
  }
 
  .border{
-   border-color:#023047  !important;
+   border-color: var(--prussianBlue) !important;
  }
 
  #canvasID{

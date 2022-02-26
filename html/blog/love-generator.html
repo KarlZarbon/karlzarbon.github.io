@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- p5  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
         integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- js -->
-    <script src="/js/love-genrator/sketch-min.js"></script>
+    <script async src="/js/love-genrator/sketch-min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7JLPVV2WG"></script>
@@ -35,26 +35,33 @@
         gtag('config', 'G-F7JLPVV2WG');
     </script>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,800&display=swap" rel="stylesheet"> 
     
+
+    <meta name="description" content="SVG is a fantastic medium for generative art. It can scale to any resolution, is a joy to debug, and... Tagged with webdev, tutorial, javascript, css.">
+    <meta name="keywords" content="webdev, tutorial, javascript, css, software, coding, development, engineering, inclusive, community">
+
+
     <!-- og properties -->
+    <meta property="og:type" content="article" />
+    <meta name=”og:url” content="https://karlzarbon.github.io/html/blog/love-generator.html">
+    <meta name=og:title” content="Love Generator">
+    <meta property="og:description" content="Reproduce Robert Indiana's 'Love' artwork with a message of your choice." />
+    <meta property="og:site_name" content="Karl's Coding Journey" />
     <meta property=“og:image” content=“https://github.com/KarlZarbon/karlzarbon.github.io/images/love-generator/love.png/>
     <meta property=”og:image:width” content=”180″ />
     <meta property=”og:image:height” content=”110″ />
-
-    <meta name="twitter:card" content="summary"></meta>
-    <meta name="twitter:creator" content="@KZarbon"></meta>
-    <meta name=”og:url” content="https://karlzarbon.github.io/html/blog/love-generator.html">
-    <meta name=og:title” content="Love Generator">
-    <meta name=og:description” content="Reproduce Robert Indiana's 'Love' artwork with a message of your choice.">
-    <!-- <meta name=og:image” content="https://github.com/KarlZarbon/karlzarbon.github.io/images/love-generator/love.png"> -->
+    
+    <meta name="twitter:site" content="@KZarbon">
+    <meta name="twitter:creator" content="@KZarbon">
+    <meta name="twitter:title" content="Love Generator">
+    <meta name="twitter:description" content="Reproduce Robert Indiana's 'Love' artwork with a message of your choice.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:widgets:new-embed-design" content="on">
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="twitter:image:src" content="https://github.com/KarlZarbon/karlzarbon.github.io/images/love-generator/love.png">
 
 </head>
 
@@ -106,7 +113,7 @@
 
                 <!-- Preview image figure-->
                 <figure class="mb-4"><img class="img-fluid rounded post-img"
-                        src="/images/love-generator/love.png" alt="Image with the word Love repeated across" /></figure>
+                        src="/images/love-generator/love.png" width="800" height="600" alt="Image with the word Love repeated across" /></figure>
 
                 <!-- Post content-->
                 <section class="pb-3 px-4">
@@ -131,7 +138,7 @@
                     <h2 class="fw-bolder pb-4 pt-5">p5.js sketch</h2>
 
                     <p class="fs-5">
-                        The code is an adaptation of David Ahl original BASIC code 'Love' printed in his book <a href="https://en.wikipedia.org/wiki/BASIC_Computer_Games)">"BASIC Computer Games"</a>.
+                        The code is an adaptation of David Ahl original BASIC code 'Love' printed in his book <a href="https://en.wikipedia.org/wiki/BASIC_Computer_Games">"BASIC Computer Games"</a>.
                         The source code is available in <a href="https://github.com/KarlZarbon/Love">github</a>.</p>
                         
                     

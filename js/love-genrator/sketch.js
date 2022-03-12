@@ -13,7 +13,7 @@ function setup()
 
     canvas = createCanvas(560, 590);
     canvas.parent(canvasId);
-    let inp = createInput('All we need is Love!');
+    let inp = createInput('Love!');
     inp.parent("inputID");
     inp.size(200);
     inp.input(myInputEvent);

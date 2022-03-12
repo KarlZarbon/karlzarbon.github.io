@@ -100,6 +100,7 @@
 
  #inputID{
   margin-right: 20px;
+  margin-bottom: 60px;
 }
 
  @media (min-width: 576px) {
@@ -146,13 +147,14 @@
 @media (min-width: 1200px) { 
   #canvasID{
   transform: scale(1.0);
-  margin-left: 0px;
+  margin-left: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
  }
 
  #inputID{
-  margin-right: 140px;
+  margin-left: 30px;
+  margin-right: 110px;
   /* background-color:#fb8500; */
 } }
 

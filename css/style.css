@@ -1,4 +1,8 @@
- 
+body {
+  font-family: Garamond,Georgia,serif;
+  font-size: 19px;
+}
+
  :root {
   --tangerine: #FB8500;
   --selectiveYellow: #FFB703;
@@ -93,6 +97,7 @@
    border-color: var(--prussianBlue) !important;
  }
 
+ /* For p5 canvas resizing */
  #canvasID{
   transform: scale(0.6);
   /* overflow:hidden; */
